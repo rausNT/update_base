@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  update_base
 //
-//  Created by Admin on 08.07.2023.
+//  Created by rausNT.
 //
 
 import Cocoa
