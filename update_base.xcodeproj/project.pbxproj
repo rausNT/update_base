@@ -12,7 +12,6 @@
 		8467E7652A58C05A00DDFAD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E7642A58C05A00DDFAD1 /* ViewController.swift */; };
 		8467E7672A58C06000DDFAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8467E7662A58C06000DDFAD1 /* Assets.xcassets */; };
 		8467E76A2A58C06000DDFAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8467E7682A58C06000DDFAD1 /* Main.storyboard */; };
-		8467E7772A58C54900DDFAD1 /* update_base.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8467E7762A58C54800DDFAD1 /* update_base.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +23,6 @@
 		8467E7662A58C06000DDFAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8467E7692A58C06000DDFAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8467E76B2A58C06000DDFAD1 /* update_base.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = update_base.entitlements; sourceTree = "<group>"; };
-		8467E7762A58C54800DDFAD1 /* update_base.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update_base.sh; sourceTree = "<group>"; };
 		E73C4B68B76ECBBF24E191F7 /* Pods-update_base.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-update_base.debug.xcconfig"; path = "Target Support Files/Pods-update_base/Pods-update_base.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +64,6 @@
 				8467E7662A58C06000DDFAD1 /* Assets.xcassets */,
 				8467E7682A58C06000DDFAD1 /* Main.storyboard */,
 				8467E76B2A58C06000DDFAD1 /* update_base.entitlements */,
-				8467E7762A58C54800DDFAD1 /* update_base.sh */,
 			);
 			path = update_base;
 			sourceTree = "<group>";
@@ -149,7 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8467E7672A58C06000DDFAD1 /* Assets.xcassets in Resources */,
-				8467E7772A58C54900DDFAD1 /* update_base.sh in Resources */,
 				8467E76A2A58C06000DDFAD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
