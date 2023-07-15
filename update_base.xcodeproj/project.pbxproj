@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0468778CFDC22784841E73E3 /* Pods_update_base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FE19BB63496A61938F1A37 /* Pods_update_base.framework */; };
 		8467E7632A58C05A00DDFAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E7622A58C05A00DDFAD1 /* AppDelegate.swift */; };
 		8467E7652A58C05A00DDFAD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467E7642A58C05A00DDFAD1 /* ViewController.swift */; };
 		8467E7672A58C06000DDFAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8467E7662A58C06000DDFAD1 /* Assets.xcassets */; };
 		8467E76A2A58C06000DDFAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8467E7682A58C06000DDFAD1 /* Main.storyboard */; };
+		8467E7772A58C54900DDFAD1 /* update_base.sh in Resources */ = {isa = PBXBuildFile; fileRef = 8467E7762A58C54800DDFAD1 /* update_base.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		085ADDA137E370D7F772566A /* Pods-update_base.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-update_base.release.xcconfig"; path = "Target Support Files/Pods-update_base/Pods-update_base.release.xcconfig"; sourceTree = "<group>"; };
+		68FE19BB63496A61938F1A37 /* Pods_update_base.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_update_base.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8467E75F2A58C05900DDFAD1 /* update_base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = update_base.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8467E7622A58C05A00DDFAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8467E7642A58C05A00DDFAD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8467E7662A58C06000DDFAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8467E7692A58C06000DDFAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8467E76B2A58C06000DDFAD1 /* update_base.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = update_base.entitlements; sourceTree = "<group>"; };
+		8467E7762A58C54800DDFAD1 /* update_base.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update_base.sh; sourceTree = "<group>"; };
+		E73C4B68B76ECBBF24E191F7 /* Pods-update_base.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-update_base.debug.xcconfig"; path = "Target Support Files/Pods-update_base/Pods-update_base.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0468778CFDC22784841E73E3 /* Pods_update_base.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +45,8 @@
 			children = (
 				8467E7612A58C05900DDFAD1 /* update_base */,
 				8467E7602A58C05900DDFAD1 /* Products */,
+				F4EC560EF7184FEF119045FD /* Pods */,
+				95F289ED04FC90E218B93E73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,8 +66,26 @@
 				8467E7662A58C06000DDFAD1 /* Assets.xcassets */,
 				8467E7682A58C06000DDFAD1 /* Main.storyboard */,
 				8467E76B2A58C06000DDFAD1 /* update_base.entitlements */,
+				8467E7762A58C54800DDFAD1 /* update_base.sh */,
 			);
 			path = update_base;
+			sourceTree = "<group>";
+		};
+		95F289ED04FC90E218B93E73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68FE19BB63496A61938F1A37 /* Pods_update_base.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4EC560EF7184FEF119045FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E73C4B68B76ECBBF24E191F7 /* Pods-update_base.debug.xcconfig */,
+				085ADDA137E370D7F772566A /* Pods-update_base.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8467E76E2A58C06000DDFAD1 /* Build configuration list for PBXNativeTarget "update_base" */;
 			buildPhases = (
+				325741ECF9BAD236D7A3E147 /* [CP] Check Pods Manifest.lock */,
 				8467E75B2A58C05900DDFAD1 /* Sources */,
 				8467E75C2A58C05900DDFAD1 /* Frameworks */,
 				8467E75D2A58C05900DDFAD1 /* Resources */,
+				DAC858424C8660A380C47201 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,11 +149,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				8467E7672A58C06000DDFAD1 /* Assets.xcassets in Resources */,
+				8467E7772A58C54900DDFAD1 /* update_base.sh in Resources */,
 				8467E76A2A58C06000DDFAD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		325741ECF9BAD236D7A3E147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-update_base-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC858424C8660A380C47201 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-update_base/Pods-update_base-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-update_base/Pods-update_base-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-update_base/Pods-update_base-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8467E75B2A58C05900DDFAD1 /* Sources */ = {
@@ -265,6 +337,7 @@
 		};
 		8467E76F2A58C06000DDFAD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73C4B68B76ECBBF24E191F7 /* Pods-update_base.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -282,7 +355,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raus.update-base";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -292,6 +366,7 @@
 		};
 		8467E7702A58C06000DDFAD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085ADDA137E370D7F772566A /* Pods-update_base.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,7 +384,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raus.update-base";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
