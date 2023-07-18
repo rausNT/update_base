@@ -262,7 +262,7 @@ class ViewController: NSViewController {
                                 let classType = 1
                                 let gameType = 1
                                 let hard = 0
-                                let timer = "/sdcard/game/" + folderURL.lastPathComponent
+                                let timer = "/sdcard/game/" + folderURL.lastPathComponent + "/"
                                 
                                 // Очистка значений от символов, которые могут помешать вставке
                                 let cleanedGame = game.replacingOccurrences(of: "'", with: "''")
